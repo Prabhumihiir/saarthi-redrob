@@ -14,6 +14,11 @@ above you.
 > This is a POC. Audio, the "deity voice", panchang data, and the content corpus
 > are clearly-marked placeholders. See **Placeholders** below.
 
+**Live deployment:** connected to Vercel — every push to `main` ships a
+production build automatically. The app builds and runs without any env var; set
+`ANTHROPIC_API_KEY` in Vercel (Project → Settings → Environment Variables →
+Production) to wake the AI Companion. See **Deploy to Vercel** below.
+
 ---
 
 ## Features
