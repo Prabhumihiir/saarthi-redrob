@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(git --version)",
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "Bash(python3 /private/tmp/claude-501/-Users-mihiir-Saarthi/357e1f78-1e81-4933-a170-065d712d54bb/scratchpad/gen_audio.py)"
+    ]
+  }
+}

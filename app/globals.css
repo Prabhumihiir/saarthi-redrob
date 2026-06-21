@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Warm, deep, devotional dark palette as CSS variables
+     (mirrors tailwind.config.ts). Legacy var names AND the new names
+     all resolve to the dark palette, so every existing component
+     that reads a --var goes dark automatically. */
+
+  /* Legacy names. */
+  --paper: #141009;
+  --card: #1e1810;
+  --ink: #f4ecdd;
+  --muted: #b7ab93;
+  --line: #362c1e;
+  --saffron: #e8843c;
+  --maroon: #c2580f;
+  --gold: #d9a441;
+
+  --shiva: #5b93d6;
+  --rama: #3da88e;
+  --ganesha: #e8a33c;
+
+  /* New dark-palette names. */
+  --bg: #141009;
+  --surface: #1e1810;
+  --surface-2: #271f15;
+  --hairline: #362c1e;
+  --text: #f4ecdd;
+  --text-muted: #b7ab93;
+  --text-faint: #8a7c66;
+  --saffron-deep: #c2580f;
+  --gold-soft: #3a2e18;
+
+  /* Font vars are assigned the next/font values on <html> in layout.tsx;
+     these fallbacks keep things sane before hydration. */
+  --font-sans: system-ui, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-deva: Georgia, serif;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Warm saffron selection tint that reads on dark. */
+  ::selection {
+    background-color: rgba(232, 132, 60, 0.28);
+    color: var(--text);
+  }
+
+  /* Visible keyboard focus everywhere. */
+  :focus-visible {
+    outline: 2px solid var(--saffron);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+@layer components {
+  /* Helper for any Devanagari text so it always uses the Devanagari serif
+     and sits with comfortable line height. */
+  .devanagari {
+    font-family: var(--font-deva);
+    line-height: 1.8;
+  }
+
+  /* Faint radial saffron glow for depth behind hero text / lamp moments. */
+  .glow-saffron {
+    background-image: radial-gradient(
+      60% 60% at 50% 40%,
+      rgba(232, 132, 60, 0.16) 0%,
+      rgba(232, 132, 60, 0.06) 45%,
+      rgba(232, 132, 60, 0) 75%
+    );
+  }
+
+  /* Same glow but driven by the active deity --accent var, used behind
+     deity names and accented headings. */
+  .glow-accent {
+    background-image: radial-gradient(
+      60% 60% at 50% 40%,
+      color-mix(in srgb, var(--accent, var(--saffron)) 18%, transparent) 0%,
+      color-mix(in srgb, var(--accent, var(--saffron)) 7%, transparent) 45%,
+      transparent 75%
+    );
+  }
+}
+
+/* Honour reduced-motion: disable the breathing animation entirely. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+
+  .animate-breathe {
+    animation: none !important;
+    transform: none !important;
+  }
+}

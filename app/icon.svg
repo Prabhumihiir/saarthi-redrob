@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Charioteer mark: a rising sun whose rays double as the spokes of a chariot wheel. -->
+  <g stroke="#C2580F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- horizon line -->
+    <path d="M6 34 H42" />
+    <!-- wheel / sun disc -->
+    <circle cx="24" cy="22" r="9" />
+    <!-- hub -->
+    <circle cx="24" cy="22" r="2.4" fill="#C2580F" stroke="none" />
+    <!-- spokes that read as rays -->
+    <path d="M24 13 V31 M15 22 H33 M17.6 15.6 L30.4 28.4 M30.4 15.6 L17.6 28.4" />
+  </g>
+</svg>
