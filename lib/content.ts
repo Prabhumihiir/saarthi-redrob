@@ -248,7 +248,7 @@ const shiva: Deity = {
         en: "I bow to Shiva.",
         hi: "मैं शिव को नमन करता हूँ।",
       },
-      audio: "/audio/shiva/shloka-panchakshara.m4a", // POC narration via macOS TTS (placeholder). TODO: replace with produced audio.
+      audio: "/audio/shiva/shloka-panchakshara.mp3", // Sarvam TTS (bulbul:v3, voice: varun). TODO: replace with produced audio.
       source: "Traditional",
     },
     {
@@ -262,7 +262,7 @@ const shiva: Deity = {
         en: "We worship the three-eyed One, fragrant, who nourishes all; may He free us from the bondage of death, like a ripe cucumber from its stem — for the sake of immortality.",
         hi: "हम त्रिनेत्रधारी, सुगंधित, सबका पोषण करने वाले शिव की उपासना करते हैं; वे हमें मृत्यु के बंधन से वैसे ही मुक्त करें जैसे पका हुआ खरबूज़ा अपनी बेल से — अमरता के लिए।",
       },
-      audio: "/audio/shiva/shloka-mahamrityunjaya.m4a", // POC narration via macOS TTS (placeholder). TODO: replace with produced audio.
+      audio: "/audio/shiva/shloka-mahamrityunjaya.mp3", // Sarvam TTS (bulbul:v3, voice: varun). TODO: replace with produced audio.
       source: "Rigveda / Traditional",
     },
   ],
@@ -276,7 +276,7 @@ const shiva: Deity = {
       en: "Victory to you, O Shiva, embodiment of the primordial Om.",
       hi: "हे शिव, ॐकार स्वरूप, आपकी जय हो।",
     },
-    audio: "/audio/shiva/aarti.m4a", // POC narration via macOS TTS (placeholder). TODO: replace with produced audio.
+    audio: "/audio/shiva/aarti.mp3", // Sarvam TTS (bulbul:v3, voice: varun). TODO: replace with produced audio.
     source: "Traditional aarti",
   },
   meditations: [
@@ -284,7 +284,7 @@ const shiva: Deity = {
       id: "shiva-med-mahamrityunjaya",
       title: { en: "Mahamrityunjaya dhyana", hi: "महामृत्युंजय ध्यान" },
       minutes: 12,
-      audio: "/audio/shiva/med-mahamrityunjaya.m4a", // POC narration via macOS TTS (placeholder). TODO: replace with produced audio.
+      audio: "/audio/shiva/med-mahamrityunjaya.mp3", // Sarvam TTS (bulbul:v3, voice: varun). TODO: replace with produced audio.
       description: {
         en: "A healing meditation resting in the Mahamrityunjaya mantra — for protection, renewal, and release from fear.",
         hi: "महामृत्युंजय मंत्र में स्थित एक उपचारात्मक ध्यान — रक्षा, नवीनीकरण और भय से मुक्ति हेतु।",
@@ -294,7 +294,7 @@ const shiva: Deity = {
       id: "shiva-med-stillness",
       title: { en: "The stillness of Shiva", hi: "शिव की स्थिरता" },
       minutes: 15,
-      audio: "/audio/shiva/med-stillness.m4a", // POC narration via macOS TTS (placeholder). TODO: replace with produced audio.
+      audio: "/audio/shiva/med-stillness.mp3", // Sarvam TTS (bulbul:v3, voice: varun). TODO: replace with produced audio.
       description: {
         en: "Settle into the silent, mountain-like awareness that Shiva embodies — a deep rest beneath all movement.",
         hi: "उस मौन, पर्वत-समान चेतना में विश्राम करें जिसका शिव प्रतीक हैं — समस्त गतिविधि के नीचे गहन शांति।",
@@ -304,7 +304,7 @@ const shiva: Deity = {
       id: "shiva-med-namah",
       title: { en: "Om Namah Shivaya japa", hi: "ॐ नमः शिवाय जप" },
       minutes: 10,
-      audio: "/audio/shiva/med-namah.m4a", // POC narration via macOS TTS (placeholder). TODO: replace with produced audio.
+      audio: "/audio/shiva/med-namah.mp3", // Sarvam TTS (bulbul:v3, voice: varun). TODO: replace with produced audio.
       description: {
         en: "A gentle repetition of the five-syllable mantra, letting each round carry the mind toward quiet surrender.",
         hi: "पंचाक्षर मंत्र का कोमल जप, जहाँ प्रत्येक आवृत्ति मन को शांत समर्पण की ओर ले जाती है।",
@@ -347,7 +347,7 @@ const shiva: Deity = {
         en: "Shiva as Neelkanth, the blue throat",
         hi: "नीलकंठ शिव",
       },
-      audio: "/audio/shiva/katha-neelkanth.m4a", // POC narration via macOS TTS (placeholder). TODO: replace with produced audio.
+      audio: "/audio/shiva/katha-neelkanth.mp3", // Sarvam TTS (bulbul:v3, voice: varun). TODO: replace with produced audio.
       summary: {
         en: "When gods and demons churned the cosmic ocean, a world-ending poison, halahala, rose first. To save creation, Shiva drank it. Parvati held his throat so the poison could neither pass nor harm him — and it stained his throat blue. So he became Neelkanth, the one who holds suffering for the sake of all.",
         hi: "जब देवों और असुरों ने समुद्र मंथन किया, तो सबसे पहले संसार का नाश करने वाला हलाहल विष निकला। सृष्टि की रक्षा के लिए शिव ने उसे पी लिया। पार्वती ने उनका कंठ थाम लिया ताकि विष न तो आगे जाए न उन्हें हानि पहुँचाए — और उनका कंठ नीला पड़ गया। इस प्रकार वे नीलकंठ कहलाए, जो सबके हित में पीड़ा धारण करते हैं।",
@@ -356,7 +356,7 @@ const shiva: Deity = {
     {
       id: "shiva-story-ganga",
       title: { en: "The descent of the Ganga", hi: "गंगा का अवतरण" },
-      audio: "/audio/shiva/katha-ganga.m4a", // POC narration via macOS TTS (placeholder). TODO: replace with produced audio.
+      audio: "/audio/shiva/katha-ganga.mp3", // Sarvam TTS (bulbul:v3, voice: varun). TODO: replace with produced audio.
       summary: {
         en: "When the mighty Ganga agreed to descend from the heavens, her torrent was great enough to shatter the earth. King Bhagiratha's penance moved Shiva to receive her: she fell into his matted locks, where her force was gentled, and flowed forth in calm streams to bless the world and liberate the ancestors.",
         hi: "जब महाशक्तिशाली गंगा स्वर्ग से उतरने को राज़ी हुईं, तो उनका वेग पृथ्वी को चूर कर देने योग्य था। राजा भगीरथ की तपस्या से प्रसन्न होकर शिव ने उन्हें ग्रहण किया: गंगा उनकी जटाओं में गिरीं, जहाँ उनका वेग शांत हुआ, और फिर मंद धाराओं में बहकर संसार को धन्य किया और पूर्वजों को मुक्ति दी।",
@@ -365,7 +365,7 @@ const shiva: Deity = {
     {
       id: "shiva-story-markandeya",
       title: { en: "Shiva and Markandeya", hi: "शिव और मार्कण्डेय" },
-      audio: "/audio/shiva/katha-markandeya.m4a", // POC narration via macOS TTS (placeholder). TODO: replace with produced audio.
+      audio: "/audio/shiva/katha-markandeya.mp3", // Sarvam TTS (bulbul:v3, voice: varun). TODO: replace with produced audio.
       summary: {
         en: "The boy-sage Markandeya was destined to die at sixteen. As Yama, lord of death, came with his noose, the boy clung to the Shiva-linga in devotion. Shiva burst forth to protect him, restraining Yama, and granted Markandeya life everlasting — a story of how unwavering devotion can transcend even death.",
         hi: "बालक ऋषि मार्कण्डेय की मृत्यु सोलह वर्ष की आयु में नियत थी। जब मृत्यु के देवता यम अपना पाश लेकर आए, तो बालक भक्तिपूर्वक शिवलिंग से लिपट गया। शिव उसकी रक्षा हेतु प्रकट हुए, यम को रोका, और मार्कण्डेय को चिरंजीवी होने का वरदान दिया — यह कथा बताती है कि अटल भक्ति मृत्यु से भी परे जा सकती है।",
@@ -383,13 +383,13 @@ const shiva: Deity = {
       en: "White as camphor, embodiment of compassion, the essence of all existence, serpent-king garlanded — I bow to Shiva who ever dwells, with Bhavani, in the lotus of the heart.",
       hi: "कपूर-समान गौर वर्ण, करुणा के अवतार, संसार के सार, नागराज को हार रूप में धारण किए हुए — मैं उन शिव को नमन करता हूँ जो भवानी सहित सदा हृदय-कमल में निवास करते हैं।",
     },
-    audio: "/audio/shiva/night-karpura.m4a", // POC narration via macOS TTS (placeholder). TODO: replace with produced audio.
+    audio: "/audio/shiva/night-karpura.mp3", // Sarvam TTS (bulbul:v3, voice: varun). TODO: replace with produced audio.
     source: "Traditional (night invocation)",
   },
   nightKatha: {
     id: "shiva-story-neelkanth",
     title: { en: "Shiva as Neelkanth, the blue throat", hi: "नीलकंठ शिव" },
-    audio: "/audio/shiva/katha-neelkanth.m4a", // POC narration via macOS TTS (placeholder). TODO: replace with produced audio.
+    audio: "/audio/shiva/katha-neelkanth.mp3", // Sarvam TTS (bulbul:v3, voice: varun). TODO: replace with produced audio.
     summary: {
       en: "When gods and demons churned the cosmic ocean, a world-ending poison, halahala, rose first. To save creation, Shiva drank it. Parvati held his throat so the poison could neither pass nor harm him — and it stained his throat blue. So he became Neelkanth, the one who holds suffering for the sake of all.",
       hi: "जब देवों और असुरों ने समुद्र मंथन किया, तो सबसे पहले संसार का नाश करने वाला हलाहल विष निकला। सृष्टि की रक्षा के लिए शिव ने उसे पी लिया। पार्वती ने उनका कंठ थाम लिया ताकि विष न तो आगे जाए न उन्हें हानि पहुँचाए — और उनका कंठ नीला पड़ गया। इस प्रकार वे नीलकंठ कहलाए, जो सबके हित में पीड़ा धारण करते हैं।",
@@ -401,7 +401,7 @@ const shiva: Deity = {
       title: { en: "The mountain within", hi: "भीतर का पर्वत" },
       speaker: { en: "Saarthi", hi: "सारथी" },
       minutes: 9,
-      audio: "/audio/shiva/talk-stillness.m4a", // POC narration via macOS TTS (placeholder). TODO: replace with produced audio.
+      audio: "/audio/shiva/talk-stillness.mp3", // Sarvam TTS (bulbul:v3, voice: varun). TODO: replace with produced audio.
       summary: {
         en: "On Shiva as the unmoving witness — finding the still centre that remains untouched beneath every passing storm.",
         hi: "अचल साक्षी रूप में शिव — हर बीतते तूफ़ान के नीचे अछूते रहने वाले स्थिर केंद्र को पाना।",
@@ -412,7 +412,7 @@ const shiva: Deity = {
       title: { en: "What Shiva destroys", hi: "शिव क्या नष्ट करते हैं" },
       speaker: { en: "Saarthi", hi: "सारथी" },
       minutes: 11,
-      audio: "/audio/shiva/talk-letting-go.m4a", // POC narration via macOS TTS (placeholder). TODO: replace with produced audio.
+      audio: "/audio/shiva/talk-letting-go.mp3", // Sarvam TTS (bulbul:v3, voice: varun). TODO: replace with produced audio.
       summary: {
         en: "Destruction as release: how letting go of illusion and ego is not loss but a clearing for what is true.",
         hi: "संहार एक विमुक्ति है: माया और अहंकार को छोड़ना हानि नहीं, बल्कि सत्य के लिए भूमि का स्वच्छ होना है।",
